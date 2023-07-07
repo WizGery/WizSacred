@@ -8,9 +8,11 @@ import requests
 import zipfile
 import shutil
 
+current_version = '1.1.0'
+
 def update_program():
     # URL del repositorio de GitHub
-    repo_url = 'https://github.com/tu_usuario/tu_repositorio'
+    repo_url = 'https://github.com/WizGery/WizSacred'
 
     # Obtener información del último lanzamiento del repositorio
     releases_url = f'{repo_url}/releases/latest'
