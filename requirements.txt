@@ -1,0 +1,8 @@
+ReadWriteMemory
+PySimpleGUI
+pyautogui
+keyboard
+threading
+requests
+zipfile
+shutil
